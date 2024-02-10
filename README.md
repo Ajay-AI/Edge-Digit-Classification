@@ -23,4 +23,4 @@ We created four separate deep learning models for each part of the image. These 
 + Models are compiled and trained on the training data, achieving an accuracy of 0.80 on the testing data.
 
 ## Result Calculation
-To obtain the final output, the geometric mean (nth root product of n numbers) of the resulting probability arrays from all four models is calculated.
+Finally, to classify the digit, we calculate the final output as the geometric mean (nth root product of n numbers) of the resulting probability arrays from all four models.
